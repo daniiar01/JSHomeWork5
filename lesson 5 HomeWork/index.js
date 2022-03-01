@@ -12,7 +12,7 @@ for (let i in obj){
 
 
 let arr = [19, 5, 9, 15, 10, 4];
-for (var i = 0; i < arr.length; i++) {
+for (let i = 0; i < arr.length; i++) {
 if (arr[i] > 5 && arr[i] < 20) {
 console.log(arr[i]);
 }
